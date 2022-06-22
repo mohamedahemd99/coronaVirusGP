@@ -1,0 +1,80 @@
+name: covid_infected_helper
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.2
+  cupertino_icons: ^1.0.4
+  firebase_storage:
+
+  flutter_svg: ^1.0.3
+  lottie: ^1.2.2
+  font_awesome_flutter: ^10.1.0
+  image_picker: ^0.8.4+11
+  http: ^0.13.4
+  get: ^4.6.1
+  charts_flutter: ^0.12.0
+  connectivity: ^3.0.6
+  url_launcher: ^6.0.20
+  progress_dialog: ^1.2.4-nullsafety.2
+  intl: ^0.17.0
+  dio:
+  dio_cookie_manager:
+  webview_flutter:
+  shared_preferences:
+  injectable:
+  logger:
+  conditional_builder:
+  json_serializable: ^6.1.6
+  json_annotation: ^4.4.0
+  firebase_core: ^1.14.1
+  firebase_auth: ^3.3.14
+  awesome_notifications: ^0.6.21
+  flutter_local_notifications: ^9.4.0
+  date_time_picker: ^2.1.0
+  rxdart: ^0.27.3
+  google_sign_in: ^5.3.0
+  flutter_facebook_auth: ^4.3.0
+  double_back_to_close_app: ^2.1.0
+  cloud_firestore:
+  awesome_dialog:
+  syncfusion_flutter_charts: ^20.1.55
+#  geocoder:
+  geolocator:
+  google_maps_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  build_runner: ^2.1.10
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/characters/
+
+  fonts:
+    - family: SEGUI
+      fonts:
+        - asset: assets/lottie/fonst/SEGOEUI.TTF
+        - asset: assets/lottie/fonst/SEGOEUIB.TTF
+        - asset: assets/lottie/fonst/SEGOEUIL.TTF
+        - asset: assets/lottie/fonst/SEGOEUISL.TTF
+        - asset: assets/lottie/fonst/SEGUISB.TTF
+          
+    - family: SIMP
+      fonts:
+        - asset: assets/lottie/fonst/SIMPBDO.TTF
+        - asset: assets/lottie/fonst/SIMPO.TTF

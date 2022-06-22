@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196567695882",
+    "project_id": "vaccine-b1822",
+    "storage_bucket": "vaccine-b1822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196567695882:android:ee7251a10f1e0dc6f315f3",
+        "android_client_info": {
+          "package_name": "com.example.covid_infected_helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196567695882-mn40lrtrkhpuupcj4m6uubt2ejooiq8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe-SQeS6FTcjiYhaM_V7G2bk58nrUUVAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196567695882-mn40lrtrkhpuupcj4m6uubt2ejooiq8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
